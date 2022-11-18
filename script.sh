@@ -1,6 +1,5 @@
 #!/bin/bash
-# ffmpeg -i Postetikette-Drucken.mp4 -c:v libx264 -b:v 8M -crf 24 ./Postetiketten-drucken.mp4
-# script changes bitrate to 8Mbps and 24 frames to make files smaller
+# script keeps video format and changes bitrate to 8Mbps and 24 frames to make files smaller
 # it takes an input folder as first and output folder as second argument
 
 if [ $# -ne 2 ]
