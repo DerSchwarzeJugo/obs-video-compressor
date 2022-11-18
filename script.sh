@@ -1,5 +1,5 @@
 #!/bin/bash
-# script keeps video format and changes bitrate to 8Mbps and 24 frames to make files smaller
+# script keeps video format, changes bitrate to 8Mbps, changes to 24 fps and to libx264 Codec
 # it takes an input folder as first and output folder as second argument
 
 if [ $# -ne 2 ]
